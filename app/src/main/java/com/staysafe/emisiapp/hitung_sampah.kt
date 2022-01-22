@@ -11,7 +11,7 @@ class hitung_sampah : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_sampah)
 
-        val inputtext = findViewById<EditText>(R.id.quantity_textview)
+        /*val inputtext = findViewById<EditText>(R.id.quantity_textview)
         val faktoremisi = findViewById<TextView>(R.id.emisifaktorsampah)
         val hasil = findViewById<TextView>(R.id.hasilsampah)
         val bHitung = findViewById<Button>(R.id.hitungsampah)
@@ -39,7 +39,7 @@ class hitung_sampah : AppCompatActivity() {
             inputtext.getText().clear()
             faktoremisi.text = " "
             hasil.text = " "
-        }
+        }*/
 
     }
 }

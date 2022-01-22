@@ -10,15 +10,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmisiApp">
         <activity
+            android:name=".hitung_alatelektronik"
+            android:exported="true"
+            android:theme="@style/Theme.EmisiApp.NoActionBar"/>
+        <activity
+            android:name=".PTPohon_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.EmisiApp.NoActionBar" />
+        <activity
+            android:name=".TPohonActivity"
+            android:exported="true"
+            android:label="@string/title_activity_tpohon"
+            android:theme="@style/Theme.EmisiApp.NoActionBar" />
+        <activity
             android:name=".profilActivity"
             android:exported="true"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".homeActivity"
             android:exported="true"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".signUp"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".opsialat"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".hitung_sampah"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".hitung_transportasi_mobil"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".hitung_transportasi_motor"
             android:exported="true"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity

@@ -11,13 +11,14 @@ class hitung_transportasi_motor : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_transportasi_motor)
 
-        val mtr = findViewById<Button>(R.id.motor)
+        /*
+        val mtr = findViewById<Button>(R.id.btnmotor)
         mtr.setOnClickListener{
             val Intent = Intent(this, hitung_transportasi_motor::class.java)
             startActivity(Intent)
         }
 
-        val mbl = findViewById<Button>(R.id.mobil)
+        val mbl = findViewById<Button>(R.id.btnmobil)
         mbl.setOnClickListener{
             val Intent = Intent(this, hitung_transportasi_mobil::class.java)
             startActivity(Intent)
@@ -86,7 +87,7 @@ class hitung_transportasi_motor : AppCompatActivity() {
             hasil.text = " "
             jk.setSelection(0)
 
-        }
+        }  */
 
 
 

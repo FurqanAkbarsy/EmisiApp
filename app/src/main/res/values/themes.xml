@@ -1,7 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.EmisiApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
+    <style name="Theme.EmisiApp" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
@@ -14,5 +16,5 @@
 
     <style name="Theme.EmisiApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.EmisiApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.EmisiApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
 </resources>

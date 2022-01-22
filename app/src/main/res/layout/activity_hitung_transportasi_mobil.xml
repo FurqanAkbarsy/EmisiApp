@@ -9,12 +9,13 @@
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="411dp"
-        android:layout_height="112dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
-        android:background="@drawable/border"
+        android:background="@drawable/ovalborder1"
         android:drawableRight="@drawable/ic_anyconv_com__mobil"
         android:paddingLeft="15dp"
         android:paddingTop="15dp"
@@ -29,35 +30,39 @@
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@+id/text1"
-        tools:layout_editor_absoluteX="16dp">
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1">
 
         <Button
-            android:id="@+id/motor"
-            android:layout_width="163dp"
-            android:layout_height="41dp"
-            android:layout_marginLeft="29dp"
+            android:id="@+id/btnmotor"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
-            android:background="@drawable/borderopsitransportasi"
-            android:text="Motor" />
+            android:background="@drawable/shape_rectangel_coklat"
+            android:fontFamily="@font/arsenal_bold"
+            android:text="Motor"
+            android:textAllCaps="false"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
-            android:id="@+id/mobil"
-            android:layout_width="163dp"
-            android:layout_height="41dp"
-            android:layout_marginRight="12dp"
-            android:background="@drawable/borderopsitransportasi"
-            android:text="Mobil" />
+            android:id="@+id/btnmobil"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rectangel_coklat"
+            android:fontFamily="@font/arsenal_bold"
+            android:text="Mobil"
+            android:textAllCaps="false"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
         android:background="@drawable/border"
         android:orientation="vertical"
         android:padding="20dp"
@@ -79,8 +84,10 @@
             android:layout_margin="7dp"
             android:backgroundTint="@android:color/holo_orange_light"
             android:inputType="numberDecimal"
+            android:drawableRight="@drawable/ic_kilometer"
             android:padding="10dp"
-            android:textColor="#AC8C60" />
+            android:textColor="#AC8C60"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,8 +107,10 @@
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/shape_rectangel_coklat"
+                android:entries="@array/jumlahkendaraan"
                 android:textAlignment="center"
-                android:entries="@array/jumlahkendaraan"/>
+                tools:ignore="TouchTargetSizeCheck" />
 
 
         </LinearLayout>
@@ -119,11 +128,13 @@
                 android:textColor="#FEA500" />
 
             <Spinner
-                android:id="@+id/spinner2"
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/shape_rectangel_coklat"
+                android:entries="@array/bahanbakar"
                 android:textAlignment="center"
-                android:entries="@array/bahanbakar" />
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -143,21 +154,14 @@
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/borderhasil"
+                android:text="0,014"
+                android:fontFamily="@font/arsenal"
+                android:gravity="center"
+                android:textColor="@color/colorcoklat"
+                android:background="@drawable/ovalborder"
                  />
 
         </LinearLayout>
-
-        <Button
-            android:id="@+id/hitungmobil"
-            android:layout_width="225dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:backgroundTint="#AC8C60"
-            android:text="Hasil"
-
-            />
 
         <TextView
             android:layout_width="match_parent"
@@ -167,8 +171,10 @@
             android:textColor="#675031" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
             android:layout_margin="15dp">
 
             <ImageView
@@ -178,31 +184,41 @@
 
             <TextView
                 android:id="@+id/hasilmobil"
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="114dp"
-                android:background="@drawable/borderhasil"
-                android:textColor="@color/white" />
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/arsenal_bold"
+                android:text="0 Kg"
+                android:background="@drawable/ovalborder"
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/resetmobil"
-                android:layout_width="160dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="#AC8C60"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/arsenal_bold"
+                android:textAllCaps="false"
+                android:background="@drawable/shape_rectangel_coklat"
                 android:text="Reset" />
 
             <Button
                 android:id="@+id/lanjutmobil"
-                android:layout_width="160dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="19.5dp"
-                android:backgroundTint="#AC8C60"
+                android:fontFamily="@font/arsenal_bold"
+                android:textAllCaps="false"
+                android:background="@drawable/shape_rectangel_coklat"
                 android:text="Lanjut" />
         </LinearLayout>
     </LinearLayout>

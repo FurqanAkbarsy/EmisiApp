@@ -15,4 +15,9 @@
         android:name="com.staysafe.emisiapp.History"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/pantau"
+        android:name="com.staysafe.emisiapp.Pantau"
+        android:label="fragment_pantau"
+        tools:layout="@layout/fragment_pantau" />
 </navigation>

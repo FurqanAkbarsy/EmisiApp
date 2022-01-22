@@ -7,182 +7,246 @@
     android:background="#F4F8DE"
     tools:context=".opsialat">
 
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/shape_rectangel_white"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:fontFamily="@font/arsenal"
+        android:text="Hitung"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/persegi_coklat" />
+
+    <ImageButton
+        android:id="@+id/imgback1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
     <TextView
         android:id="@+id/text1"
-        android:layout_width="378dp"
+        android:layout_width="0dp"
         android:layout_height="111dp"
         android:layout_margin="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:background="@drawable/border"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ovalborder1"
         android:drawableRight="@drawable/ic_a24c056e_c7bf_4c1f_8a6d_9d6d128c1665"
         android:padding="15dp"
         android:text="Berapa emisi karbon yang dihasilkan dari peralatan elektronikmu?"
         android:textColor="#675031"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__ac" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__mesin_cuci" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__laptop" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__kipas_angin" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__setrika" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__blender" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__lampu" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__herdryer" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__termos" />
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/lanjutopsi"
-        android:layout_width="367dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="15dp"
-        android:backgroundTint="#AC8C60"
-        android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
-        android:text="Hitung"
-        android:textAlignment="textStart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/text1">
 
-        <ImageButton
+        <LinearLayout
+            android:id="@+id/linearLayout1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_tv" />
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__kulkas" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_tv"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-        <ImageButton
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__kulkas"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__microwave"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borderbulat"
-            android:padding="12dp"
-            android:src="@drawable/ic_anyconv_com__microwave" />
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__ac"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__mesin_cuci"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__laptop"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__kipas_angin"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__setrika"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__blender"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__lampu"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__herdryer"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/borderbulat"
+                android:padding="12dp"
+                android:src="@drawable/ic_anyconv_com__termos"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Peralatan Elektronik"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

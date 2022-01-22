@@ -4,25 +4,37 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.view.ViewParent
 import android.widget.*
 import android.widget.Toast
 import android.widget.ArrayAdapter
 import android.widget.AdapterView
-import androidx.core.view.get
 
 class hitung_transportasi_mobil : AppCompatActivity() {
+
+    private lateinit var Spinner1 : Spinner
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_transportasi_mobil)
 
-        val mtr = findViewById<Button>(R.id.motor)
+
+        Spinner1 = findViewById(R.id.spinner1)
+        val adapter=ArrayAdapter.createFromResource(
+            this,
+            R.array.bahanbakar,
+            R.layout.spinner_color
+        )
+        adapter.setDropDownViewResource(R.layout.spinner_color)
+        arrayOf(adapter)
+
+        /*
+        val mtr = findViewById<Button>(R.id.btnmotor)
         mtr.setOnClickListener{
             val Intent = Intent(this, hitung_transportasi_motor::class.java)
             startActivity(Intent)
         }
 
-        val mbl = findViewById<Button>(R.id.mobil)
+        val mbl = findViewById<Button>(R.id.btnmobil)
         mbl.setOnClickListener{
             val Intent = Intent(this, hitung_transportasi_mobil::class.java)
             startActivity(Intent)
@@ -131,7 +143,7 @@ class hitung_transportasi_mobil : AppCompatActivity() {
             hasil.text = " "
             jk.setSelection(0)
             bahan.setSelection(0)
-        }
+        }*/
 
 
     }

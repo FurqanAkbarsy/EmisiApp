@@ -9,11 +9,11 @@
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="374dp"
+        android:layout_width="0dp"
         android:layout_height="123dp"
         android:layout_margin="15dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/border"
         android:drawableRight="@drawable/ic_a24c056e_c7bf_4c1f_8a6d_9d6d128c1665"
@@ -21,6 +21,7 @@
         android:text="Berapa emisi karbon yang dihasilkan dari peralatan elektronikmu?"
         android:textColor="#675031"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,16 +29,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="15dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="56dp"
         android:background="@drawable/border"
+        android:gravity="center"
         android:orientation="vertical"
         android:padding="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text1">
 
@@ -56,7 +56,8 @@
             android:backgroundTint="@android:color/holo_orange_light"
             android:inputType="numberDecimal"
             android:padding="10dp"
-            android:textColor="#AC8C60" />
+            android:textColor="#AC8C60"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,16 +102,6 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/hasilalat"
-            android:layout_width="225dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="30dp"
-            android:backgroundTint="#AC8C60"
-
-            android:text="Hasil" />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,9 +110,11 @@
             android:textColor="#675031" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp">
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -130,32 +123,43 @@
 
             <TextView
                 android:id="@+id/outputalat"
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/borderhasil"
-                android:textColor="@color/white" />
+                android:background="@drawable/ovalborder"
+                android:fontFamily="@font/arsenal_bold"
+                android:gravity="center"
+                android:text="6,35 kg"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/reset"
-                android:layout_width="160dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginRight="10dp"
                 android:backgroundTint="#AC8C60"
-                android:text="Reset" />
+                android:text="Reset"
+                android:background="@drawable/shape_rectangel_coklat"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/lanjutalat"
-                android:layout_width="160dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="19.5dp"
                 android:backgroundTint="#AC8C60"
-                android:text="Lanjut" />
+                android:text="Simpan"
+                android:background="@drawable/shape_rectangel_coklat"
+                android:textAllCaps="false" />
         </LinearLayout>
 
     </LinearLayout>

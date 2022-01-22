@@ -2,18 +2,18 @@ package com.staysafe.emisiapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
+/* import android.os.PersistableBundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
+import android.widget.TextView */
 
 class hitung_alatelektronik : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_alatelektronik)
-
+        /*
         val inputtext = findViewById<EditText>(R.id.inputenergi)
         val faktoremisi = findViewById<TextView>(R.id.textView9)
         val GWP = findViewById<TextView>(R.id.textView13)
@@ -46,7 +46,7 @@ class hitung_alatelektronik : AppCompatActivity(){
             GWP.text = " "
             faktoremisi.text = " "
             hasil.text = " "
-        }
+        }*/
 
     }
 }
