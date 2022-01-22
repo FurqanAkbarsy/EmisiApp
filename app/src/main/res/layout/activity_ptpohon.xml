@@ -158,7 +158,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnchange1"
+        android:id="@+id/btntanam"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

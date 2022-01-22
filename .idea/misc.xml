@@ -20,6 +20,7 @@
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/borderopsitransportasi.xml" value="0.2064814814814815" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/borderradius.xml" value="0.2111111111111111" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/circle_shape.xml" value="0.1125" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/gelap.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.22205128205128205" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.22205128205128205" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/ic_baseline_home_60.xml" value="0.2064814814814815" />
@@ -29,20 +30,24 @@
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/ovalborder.xml" value="0.2064814814814815" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/ovalborder1.xml" value="0.20185185185185187" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/persegi_coklat.xml" value="0.1125" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/persegi_hijau.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/radio_non_selected.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/radio_selected.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/radio_selector.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/radio_text_selector.xml" value="0.19722222222222222" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/shape_pantau.xml" value="0.22552083333333334" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/shape_pantaucklt.xml" value="0.22552083333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/drawable/shape_rectangel_coklat.xml" value="0.11614583333333334" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_ha_elektronik.xml" value="0.209375" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_hitung_alatelektronik.xml" value="0.25" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_hitung_sampah.xml" value="0.22" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_hitung_transportasi_mobil.xml" value="0.22" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_hitung_transportasi_motor.xml" value="0.5" />
-        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_main.xml" value="0.11096014492753623" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_menu_artikel.xml" value="0.209375" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_opsialat.xml" value="0.22" />
+        <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_pantau.xml" value="0.48" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_profil.xml" value="0.22" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_ptpohon.xml" value="0.25" />
         <entry key="..\:/Mikroskil/TK mikroskil (S5)/Pemograman Mobile Dasar/Android Studio/EmisiApp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />

@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmisiApp">
         <activity
-            android:name=".hitung_alatelektronik"
+            android:name=".pantauActivity"
             android:exported="true"
             android:theme="@style/Theme.EmisiApp.NoActionBar"/>
+        <activity
+            android:name=".hitung_alatelektronik"
+            android:exported="true"
+            android:theme="@style/Theme.EmisiApp.NoActionBar" />
         <activity
             android:name=".PTPohon_Activity"
             android:exported="true"

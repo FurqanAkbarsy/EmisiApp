@@ -24,20 +24,12 @@
                 android:id="@+id/btnPantau"
                 android:layout_width="140dp"
                 android:layout_height="30dp"
-                android:layout_marginRight="20dp"
                 android:background="@drawable/shape_rectangel_coklat"
                 android:text="Pantau"
                 android:textAllCaps="false"
+                android:textColor="@color/white"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <Button
-                android:id="@+id/btnHistory"
-                android:layout_width="140dp"
-                android:layout_height="30dp"
-                android:background="@drawable/shape_rectangel_coklat"
-                android:text="History"
-                android:textAllCaps="false"
-                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
     </LinearLayout>
 
