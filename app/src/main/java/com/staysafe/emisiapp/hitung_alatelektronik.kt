@@ -1,18 +1,39 @@
 package com.staysafe.emisiapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+
 /* import android.os.PersistableBundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView */
 
-class hitung_alatelektronik : AppCompatActivity(){
+class hitung_alatelektronik : AppCompatActivity(), View.OnClickListener {
+
+    private lateinit var btnsimpan : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_alatelektronik)
+
+
+        btnsimpan = findViewById(R.id.btnsimpan)
+        btnsimpan.setOnClickListener(this)
+
+    }
+
+    override fun onClick(v: View) {
+        when(v.id){
+            R.id.btnsimpan ->{
+                val intentBiasa = Intent(this@hitung_alatelektronik, homeActivity::class.java)
+                startActivity(intentBiasa)
+            }
+        }
+    }
         /*
         val inputtext = findViewById<EditText>(R.id.inputenergi)
         val faktoremisi = findViewById<TextView>(R.id.textView9)
@@ -48,5 +69,5 @@ class hitung_alatelektronik : AppCompatActivity(){
             hasil.text = " "
         }*/
 
-    }
+
 }

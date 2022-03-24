@@ -9,10 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmisiApp">
+        <receiver
+            android:name=".MyAirplaneReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+
+        </receiver>
+
         <activity
             android:name=".pantauActivity"
             android:exported="true"
-            android:theme="@style/Theme.EmisiApp.NoActionBar"/>
+            android:theme="@style/Theme.EmisiApp.NoActionBar" />
         <activity
             android:name=".hitung_alatelektronik"
             android:exported="true"

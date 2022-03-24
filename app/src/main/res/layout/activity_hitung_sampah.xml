@@ -160,7 +160,7 @@
                 android:text="Reset" />
 
             <Button
-                android:id="@+id/lanjutsampah"
+                android:id="@+id/btnsampah"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

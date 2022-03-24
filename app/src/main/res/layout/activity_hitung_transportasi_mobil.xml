@@ -55,7 +55,7 @@
             android:fontFamily="@font/arsenal_bold"
             android:text="Mobil"
             android:textAllCaps="false"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="DuplicateIds,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -212,14 +212,14 @@
                 android:text="Reset" />
 
             <Button
-                android:id="@+id/lanjutmobil"
+                android:id="@+id/btnmobill"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="@font/arsenal_bold"
-                android:textAllCaps="false"
                 android:background="@drawable/shape_rectangel_coklat"
-                android:text="Lanjut" />
+                android:fontFamily="@font/arsenal_bold"
+                android:text="Simpan"
+                android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

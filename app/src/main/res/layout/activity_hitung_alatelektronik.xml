@@ -152,7 +152,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/lanjutalat"
+                android:id="@+id/btnsimpan"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
