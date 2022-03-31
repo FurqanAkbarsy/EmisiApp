@@ -17,6 +17,8 @@ class Home : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
 
+
+
     ): View {
 
         val bind = FragmentHomeBinding.inflate(layoutInflater)
